@@ -1,0 +1,42 @@
+ .drop-container {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  display: none;
+}
+
+ .drop-container-label {
+  position: absolute;
+  text-shadow: -1px -1px hsl(0deg 0% 100% / 50%), 1px 1px rgb(0 0 0 / 50%);
+  transform: translateY(-50%);
+  top: 50%;
+  text-transform: capitalize;
+  width: 100%;
+  text-align: center;
+}
+
+ .drop-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+ .drop-wrapper input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+ .drop-wrapper span {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  cursor: pointer;
+}

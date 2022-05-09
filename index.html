@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modals-wrapper" role="figure">
+      <canvas class="viewer" aria-label="threejs shadows">
+      </canvas>
+      <div id="drop-container" class="drop-container">
+        <div class="drop-container-label">Drop glb files here</div>
+        <div class="drop-wrapper">
+          <input type="file" id="dropzone" accept=".glb" name="upload_files" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

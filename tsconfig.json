@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es2015",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false,
+    "paths": {
+      "three/examples/jsm/libs/dat.gui.module": [
+        "./node_modules/@types/dat.gui"
+      ]
+    }
+  }
+}
